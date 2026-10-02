@@ -1,0 +1,39 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Case Studies",
+      "url": "/projects"
+    },
+    {
+      "name": "Chat GPT",
+      "url": "@/layouts/heropage"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+
+  ],
+  "footer": [
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Services",
+      "url": "/"
+    },
+    {
+      "name": "Terms & Conditions",
+      "url": "/terms-policy"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "site": {
+    "title": "Cathode Softwares Pvt Ltd",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "158",
+    "logo_height": "60",
+    "logo_text": "Cathode Softwares"
+  },
+
+  "settings": {
+    "pagination": 6,
+    "summary_length": 200,
+    "project_folder": "projects"
+  },
+
+  "params": {
+    "tag_manager_id": "",
+    "contact_form_action": "/api/save-data",
+    "footer_content": "To be a leading provider of innovative and transformative IT solutions, empowering businesses to thrive in the digital era.",
+    "copyright": "© 2023 Cathode Softwares | Developed By [Cathode Softwares Team](https://in.linkedin.com/in/drashti-sabhaya)"
+  },
+
+  "contact_info": {
+    "phone": "",
+    "email": "connect@cathodesoftwares.com",
+    "location": "B-401, Lakeview Tower, Opp. Vastrapur Lake, Nr. Alpha Mall, Vastrapur, Ahmedabad, Gujarat, India - 380015"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Get a Quote",
+    "link": "/contact"
+  },
+
+  "metadata": {
+    "meta_author": "Cathode Softwares Team",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Cathode Softwares"
+  },
+
+  "call_to_action": {
+    "enable": true,
+    "title": "Get Empowered with Cathode Softwares",
+    "content": "Unlock the Power of Innovative IT Solutions for Your Business. Elevate Your Business to New Heights with our Cutting-Edge Technology Expertise",
+    "button": {
+      "label": "Get a Quote",
+      "link": "/contact"
+    }
+  },
+
+  "disqus": {
+    "enable": true,
+    "shortname": "cathode-mobility",
+    "settings": {}
+  }
+}
