@@ -3,6 +3,8 @@ import theme from "@config/theme.json";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
+import "swiper/css";
+import "swiper/css/pagination";
 import "styles/style.scss";
 
 const App = ({ Component, pageProps }) => {

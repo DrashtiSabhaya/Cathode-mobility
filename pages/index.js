@@ -10,7 +10,7 @@ import FeatherIcon from "feather-icons-react/build/FeatherIcon";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { TbQuote } from "react-icons/tb";
-import { Autoplay, Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Home = ({ banner, features, speciality, testimonial, technologies }) => {
@@ -248,7 +248,6 @@ const Home = ({ banner, features, speciality, testimonial, technologies }) => {
               slidesPerView={1}
               pagination={{
                 type: "bullets",
-                el: paginationRef.current,
                 clickable: true,
                 dynamicBullets: true,
               }}
@@ -401,7 +400,6 @@ const Home = ({ banner, features, speciality, testimonial, technologies }) => {
                     <Swiper
                       modules={[Pagination, Autoplay]}
                       pagination={{
-                        el: testimonialPaginationRef.current,
                         type: "bullets",
                         dynamicBullets: true,
                         clickable: true,

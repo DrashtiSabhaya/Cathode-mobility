@@ -16,8 +16,6 @@
   @import "utilities";
 }
 
-@layer swiper {
-  @import '../node_modules/swiper/swiper.scss';
-  @import 'swiper/scss/pagination';
-  @import './swiper.scss';
-}
+// Swiper base styles are now plain CSS (Swiper 14 dropped the SCSS entry
+// points) and are imported from `pages/_app.js` via `swiper/css`.
+@import "swiper";
